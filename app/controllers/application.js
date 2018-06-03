@@ -13,6 +13,7 @@ export default Controller.extend({
       let session = this.get('session');
       session.authenticate('authenticator:torii', 'google-oauth2').then(() => {
         this.store.queryRecord('user', {}).then((user) => {
+          console.log(user);
           session.set('currentUser', user);
         });
       });
