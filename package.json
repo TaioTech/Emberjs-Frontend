@@ -45,6 +45,6 @@
   "dependencies": {
     "broccoli-babel-transpiler": "^6.4.3",
     "exists-sync": "^0.1.0",
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.21"
   }
 }
